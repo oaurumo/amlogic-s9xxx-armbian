@@ -355,7 +355,7 @@ jobs:
           body: |
             ### Armbian Image information
             - Default username: root
-            - Default password: 1234
+            - Default password: linux123
             - Install command: armbian-install
             - Update command: armbian-update
             ### Armbian Image Verification
