@@ -228,7 +228,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - aurum
 
 env:
   TZ: America/New_York
