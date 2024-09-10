@@ -303,7 +303,6 @@ jobs:
           cd build/
               ./compile.sh RELEASE=${{ inputs.set_release }} BOARD=odroidn2 BRANCH=current BUILD_MINIMAL=yes \
                            BUILD_ONLY=no HOST=armbian BUILD_DESKTOP=no EXPERT=yes KERNEL_CONFIGURE=yes \
-                           EXTRAWIFI=yes \
                            COMPRESS_OUTPUTIMAGE="sha" SHARE_LOG=yes
           echo "status=success" >> ${GITHUB_OUTPUT}
 
